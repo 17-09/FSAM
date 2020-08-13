@@ -1,5 +1,6 @@
 ﻿using FSAM.Api.Core.Services;
 using FSAM.Api.Requests;
+using FSAM.Api.Responses;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FSAM.Api.Controllers
@@ -40,7 +41,7 @@ namespace FSAM.Api.Controllers
                 return BadRequest($"{nameof(spec.EconomySeats)} must be greater than or equal to 0");
 
             var allocateResult = _allocationService.Allocate(spec.ToSpec());
-            return Ok(allocateResult);
+            return Ok(AllocateResponse.From(allocateResult));
         }
     }
 }
