@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSAM.Api", "FSAM.Api\FSAM.Api.csproj", "{9F23E39E-07C4-4C17-BFED-4800DEF412AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSAM.Tests", "FSAM.Tests\FSAM.Tests.csproj", "{9A011F3B-D1D2-4380-B057-748A0915F365}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F23E39E-07C4-4C17-BFED-4800DEF412AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F23E39E-07C4-4C17-BFED-4800DEF412AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F23E39E-07C4-4C17-BFED-4800DEF412AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F23E39E-07C4-4C17-BFED-4800DEF412AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A011F3B-D1D2-4380-B057-748A0915F365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A011F3B-D1D2-4380-B057-748A0915F365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A011F3B-D1D2-4380-B057-748A0915F365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A011F3B-D1D2-4380-B057-748A0915F365}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
