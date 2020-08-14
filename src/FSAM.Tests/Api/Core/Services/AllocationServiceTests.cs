@@ -65,6 +65,25 @@ namespace FSAM.Tests.Api.Core.Services
                             SelectedEconomyOffers = {99, 45, 23, 22}
                         }
                     }
+                },
+                new object[]
+                {
+                    7, 1, new AllocateResult
+                    {
+                        BusinessUsage = new Usage
+                        {
+                            Revenue = 1054,
+                            Seats = 6,
+                            SelectedBusinessOffers = {374, 209, 155, 115, 101, 100}
+                        },
+                        EconomyUsage = new Usage
+                        {
+                            Revenue = 144,
+                            Seats = 2,
+                            SelectedEconomyOffers = {45},
+                            SelectedBusinessOffers = {99}
+                        }
+                    }
                 }
             };
 
